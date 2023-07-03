@@ -1,0 +1,21 @@
+section.about{
+    display: flex;
+    background-color: #EAF2FD;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (min-width:0) {
+
+    .about__container{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about__container{
+        width: 70%;
+    }    
+}
